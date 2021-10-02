@@ -79,7 +79,7 @@ endf
 " Buffer variables
 fun! s:InitBuf()
     call s:Declare('b:did_ftplugin_closetag', 1)
-    call s:Declare('b:closetag_emptyTags', '^\(area\|base\|br\|col\|command\|embed\|hr\|img\|input\|keygen\|link\|meta\|param\|source\|track\|wbr\)$')
+    call s:Declare('b:closetag_emptyTags', '^\(area\|base\|br\|col\|command\|embed\|hr\|img\|input\|keygen\|link\|meta\|param\|source\|track\|wbr\|sub\|sup\)$')
     call s:Declare('b:closetag_firstWasEndTag', 0)
     call s:Declare('b:closetag_html_mode', 1)
     call s:Declare('b:closetag_haveAtt', 0)
