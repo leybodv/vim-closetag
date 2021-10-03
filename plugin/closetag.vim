@@ -9,7 +9,7 @@
 if exists("g:loaded_closetag") | fini | en | let g:loaded_closetag = "1.8.11"
 
 fun! s:Initial()
-    call s:Declare('g:closetag_filetypes', 'html,xhtml,phtml,md')
+    call s:Declare('g:closetag_filetypes', 'html,xhtml,phtml,markdown')
     call s:Declare('g:closetag_xhtml_filetypes', 'xhtml')
 
     call s:Declare('g:closetag_filenames', '*.html,*.xhtml,*.phtml,*md')
